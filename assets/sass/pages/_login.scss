@@ -1,3 +1,7 @@
+%col {
+  width: $widht_half;
+}
+
 .container {
   -webkit-box-flex: 1;
   flex-grow: 1;
@@ -28,11 +32,12 @@
 }
 
 .col__content-left {
-  -webkit-align-self: center;
+  @extend %col;
+  align-self: center;
   margin-left: -35px;
-  width: 50%;
+
 }
 
 .col__content-right {
-  width: 50%;
+  @extend %col
 }

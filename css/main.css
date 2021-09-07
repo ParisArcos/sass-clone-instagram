@@ -44,7 +44,7 @@
 }
 
 .col__content-left {
-  -webkit-align-self: center;
+  align-self: center;
   margin-left: -35px;
   width: 50%;
 }
@@ -53,7 +53,9 @@
   width: 50%;
 }
 
+/* ABSTRACTS */
 /* BASE */
 /* COMPONENTS */
 /* LAYOUT */
-/* PAGES *//*# sourceMappingURL=main.css.map */
+/* PAGES */
+/*# sourceMappingURL=main.css.map */
