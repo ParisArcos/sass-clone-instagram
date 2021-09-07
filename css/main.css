@@ -1,11 +1,21 @@
 html {
+  margin: 110px;
+  padding: 10px;
 }
 
 .navBar__logo img {
   max-width: 103px;
 }
 
+.navBar__searchBar {
+  max-width: 215px;
+}
+
+.navBar__icons {
+  max-width: 220px;
+}
+
 /* BASE */
 /* COMPONENTS */
 /* LAYOUT */
-/* PAGES */ /*# sourceMappingURL=main.css.map */
+/* PAGES *//*# sourceMappingURL=main.css.map */
