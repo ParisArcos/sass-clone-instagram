@@ -8,6 +8,18 @@
   transition: transform 0.6s ease-in-out;
 }
 
+/* navBar */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 20%;
+  max-height: 53px;
+  border-bottom: 1px solid grey;
+}
+
+.navBar__logo {
+  max-width: 103px;
+}
 .navBar__logo img {
   max-width: 103px;
 }
@@ -15,19 +27,41 @@
 .navBar__searchBar {
   max-width: 215px;
 }
+.navBar__searchBar input {
+  text-align: center;
+  font-family: FontAwesome;
+  height: 28px;
+}
 
 .navBar__icons {
-  max-width: 220px;
+  max-width: 250px;
+  text-align: end;
+}
+.navBar__icons i {
+  font-size: 25px;
+  text-align: right;
+}
+
+/* navBar */
+.col__content-right, .col__content-left {
+  width: widht_half;
 }
 
 .container {
+  -webkit-box-flex: 1;
   flex-grow: 1;
+  -webkit-box-ordinal-group: 5;
   order: 4;
+  padding: 0% 20%;
 }
 
 .container__row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-direction: row;
+  -webkit-box-flex: 1;
   flex-grow: 1;
+  -webkit-box-pack: center;
   justify-content: center;
   margin: 32px auto 0;
   max-width: 935px;
@@ -46,16 +80,15 @@
 .col__content-left {
   align-self: center;
   margin-left: -35px;
-  width: 50%;
 }
 
-.col__content-right {
-  width: 50%;
+.content-right__download img {
+  width: 136px;
+  height: 40px;
 }
 
 /* ABSTRACTS */
 /* BASE */
 /* COMPONENTS */
 /* LAYOUT */
-/* PAGES */
-/*# sourceMappingURL=main.css.map */
+/* PAGES *//*# sourceMappingURL=main.css.map */

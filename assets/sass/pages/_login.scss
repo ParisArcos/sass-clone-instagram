@@ -1,5 +1,8 @@
+@use '../abstracts/sizes';
+@use '../abstracts/mixins';
+
 %col {
-  width: $widht_half;
+  width: widht_half;
 }
 
 .container {
@@ -7,6 +10,8 @@
   flex-grow: 1;
   -webkit-box-ordinal-group: 5;
   order: 4;
+  padding: 0% 20%;
+
 }
 
 .container__row {
@@ -40,4 +45,10 @@
 
 .col__content-right {
   @extend %col
+}
+
+.content-right__download{
+  img{
+    @include mixins.icon-size;
+  } 
 }

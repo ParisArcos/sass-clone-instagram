@@ -1,14 +1,20 @@
 /* ABSTRACTS */
-@use './abstracts/tools';
+@use './abstracts/mixins';
+@use './abstracts/sizes';
 
 /* BASE */
 @use './base/reset';
 
 /* COMPONENTS */
-@use './components/components';
+@use './components/buttons';
+@use './components/carousel';
+@use './components/forms';
+@use './components/navbar';
 
 /* LAYOUT */
-@use './layout/layouts';
+@use './layout/footer';
+@use './layout/sidebar';
 
 /* PAGES */
-@use './pages/pages';
+@use './pages/login';
+@use './pages/home';
