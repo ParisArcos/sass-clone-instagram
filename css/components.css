@@ -1,4 +1,13 @@
-<<<<<<< HEAD
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+
 /* navBar */
 .navBar {
   display: flex;
@@ -34,14 +43,3 @@
 }
 
 /* navBar *//*# sourceMappingURL=components.css.map */
-=======
-.carousel-item {
-  position: relative;
-  display: none;
-  float: left;
-  width: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transition: transform 0.6s ease-in-out;
-}/*# sourceMappingURL=components.css.map */
->>>>>>> dev
