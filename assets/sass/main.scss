@@ -1,12 +1,11 @@
 /* BASE */
-@use './base/';
+@use './base/reset';
 
 /* COMPONENTS */
-@use './components/';
-
+@use './components;
 
 /* LAYOUT */
-@use './layout/';
+@use './layout';
 
 /* PAGES */
-@use './pages/';
+@use './pages';
