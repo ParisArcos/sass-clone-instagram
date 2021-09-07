@@ -2,10 +2,10 @@
 @use './base/reset';
 
 /* COMPONENTS */
-@use './components;
+@use './components/main';
 
 /* LAYOUT */
-@use './layout';
+@use './layout/main';
 
 /* PAGES */
-@use './pages';
+@use './pages/main';

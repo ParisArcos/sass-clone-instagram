@@ -1,16 +1,20 @@
 
-.navBar__logo{
-   
-    img{
-        max-width: 103px;
-    }
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+.navBar__logo {
+  max-width: 33%;
+}
+
+.navBar__logo img {
+  max-width: 103px;
 }
 
 .navBar__searchBar {
-    max-width: 215px;
-  }
+  max-width: 215px;
+}
 
-  .navBar__icons {
-    max-width: 220px;
-  }
-  
+.navBar__icons {
+  max-width: 220px;
+}
